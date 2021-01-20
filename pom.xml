@@ -11,7 +11,7 @@
 	<groupId>com.produtos</groupId>
 	<artifactId>apirest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>rest-produtos-api</name>
+	<name>apirest</name>
 	<description>Api rest com Spring boot</description>
 	<properties>
 		<java.version>11</java.version>
