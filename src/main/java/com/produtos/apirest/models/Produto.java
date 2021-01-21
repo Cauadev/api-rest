@@ -19,14 +19,14 @@ public class Produto implements Serializable{
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	
-	@NotNull
+	@NotNull(message = "não pode estar vazio")
 	private String nome;
 	
-	@NotNull
-	private int quantidade;
+	@NotNull(message = "não pode estar vazio")
+	private Integer quantidade = null;
 	
-	@NotNull
-	private double valor;
+	@NotNull(message = "não pode estar vazio")
+	private Double valor  = null;
 
 	public int getQuantidade() {
 		return quantidade;
